@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/tablet.css">
     <link rel="stylesheet" href="estilo/desktop.css">
@@ -18,7 +19,22 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="ilogin" id="ilogin" placeholder="E-mail do Usuário" required autocomplete="email" maxlength="30" minlength="10">
+                        <label for="ilogin">Login</label>
+                    </div class="campo">
+                    <div>
+                        <span class="material-symbols-outlined">key</span>
+                        <input type="password" name="isenha" id="isenha" placeholder="Senha do Usuário" required autocomplete="current-password" minlength="8" >
+                        <label for="isenha">Senha</label>
+                    </div><br>
+
+                    <div id="botoes">
+                        <input type="submit" value="Entrar">
+                    </div>
+                    
                     
                 </form>
             </div>
