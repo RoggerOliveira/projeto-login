@@ -53,9 +53,6 @@ div#formulario > h1{
     text-align: center;
 }
 
-
-
-
 form input[type=submit] {
     display: block;
     font-size: em;
@@ -83,7 +80,7 @@ form label{
     
     border-radius: 9px;
     height: 40px;
-    width: 99%;
+    width: 100%;
     margin: 5px 0px;
 }
 
@@ -97,12 +94,12 @@ form label{
 .campo > input{
     background-color: #dabda9;
     font-size: 1em;
-    width: calc(100% - 44.5px);
+    width: calc(100% - 45px);
     border-radius: 8px;
     height: 100%;
     padding: 11px;
     border: 0px;
-    transform: translateY(-10px);
+    transform: translateY(-50px);
     
 }
 
