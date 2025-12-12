@@ -25,4 +25,12 @@
         font-size: 1.3em;
     }
     
+    form input[type=submit] {
+        margin-top: 5px;
+        font-size: 0.8em;
+    }
+
+    #ajuda {
+        font-size: 0.8em;
+    }
 }
